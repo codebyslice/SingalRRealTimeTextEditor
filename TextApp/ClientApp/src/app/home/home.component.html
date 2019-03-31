@@ -1,0 +1,10 @@
+<h1>Simple synchronized text editor using .NET Core SingalR </h1>
+<p>Welcome to your new single-page application, built to demonstrate how SignalR works:</p>
+<h4>Instructions:</h4>
+<p>Enter the same URL you see here in address bar in a new browser session and see that the text you enter below will reflect in the other browser real-time. </p>
+<br />
+<h4>Enter text:</h4>
+
+<textarea cols="120" rows="10" [(ngModel)]="message" (keyup)="send()"></textarea>
+
+<p>{{message}}</p>
